@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION['keshav']);
+unset($_SESSION['kesha']);
+unset($_SESSION['kesh']);
+session_destroy();
+die();
+header("location:admin.php");
+?>

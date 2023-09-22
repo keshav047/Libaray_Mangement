@@ -1,0 +1,51 @@
+body{
+    background-color: blueviolet;
+}
+
+#form{
+    background-color: white;
+    width: 25%;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(82,11,77);
+    border-radius: 6px;
+}
+
+#btn{
+    color:white;
+    background-color: rgb(105,15,190);
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+
+}
+#user{
+    margin-left: 30px;
+}
+#contact{
+    margin-left: 23px;
+}
+#email{
+    margin-left: 36px;
+}
+#pass{
+    margin-left: 32px;
+}
+h1,form{
+    text-align: center;
+}
+h1{
+    color: orangered;
+    text-shadow: 2px 1px rgb(241,14,35);
+    font: weight 200px; ;
+}
+label{
+    font-size: large;
+}
+@media screen and (max-width:700px){
+    #form{
+        width:65%;
+        padding: 40px;
+    }
+}
+    

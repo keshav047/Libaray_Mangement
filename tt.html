@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card-container" key={id}>
+        <div class="card ">
+          <div class="card-body">
+            <span class="card-number card-circle subtle">{id}</span>
+            <span class="card-author subtle"> {category}</span>
+            <h2 class="card-title"> {name} </h2>
+            <span class="card-description subtle">
+              {description}
+            </span>
+            <div class="card-read">Read</div>
+          </div>
+          <img src={image} alt="images" class="card-media" />
+    
+          <span class="card-tag  subtle">Order Now</span>
+        </div>
+      </div>
+</body>
+</html>
+
+
